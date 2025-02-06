@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mathvisulization:
+    image: mathvisulization
+    build:
+      context: .
+      dockerfile: ./Dockerfile
